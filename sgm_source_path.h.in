@@ -1,0 +1,9 @@
+#ifndef SGM_SOURCE_PATH_H
+#define SGM_SOURCE_PATH_H
+
+#define SGM_SRC_PATH "${CMAKE_SOURCE_DIR}/sgm.cl"
+#define DEFAULT_DATA_DIR "${CMAKE_SOURCE_DIR}/data/"
+#define DEFAULT_LEFT_PATH DEFAULT_DATA_DIR"left.png"
+#define DEFAULT_RIGHT_PATH DEFAULT_DATA_DIR"right.png"
+
+#endif
